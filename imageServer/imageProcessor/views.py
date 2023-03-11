@@ -1,7 +1,7 @@
 from django.shortcuts import render,HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import os
-from .VideoModels.Gestures import main as VideoProcessor
+from .videoModels.Gestures import main as VideoProcessor
 import json
 import datetime
 # Create your views here.
